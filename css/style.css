@@ -1,6 +1,6 @@
-/* body{
+body{
   font-family: 'Roboto', sans-serif;
-} */
+}
 .ul{
   list-style: none;
 }
@@ -10,46 +10,125 @@
 .li{
   display: inline-block;
 }
-.container-nav{
-  width: 85%;
-  margin: auto;
+.nav{
   line-height: 60px;
 }
-.container-nav img{
+.nav img{
   width: 11em;
   vertical-align: middle;
 }
-.container-nav li{
+.nav li{
   padding-right: 15px;
 }
-.container-nav li span i{
+.nav li span i{
   padding-left: 3px;
 }
-.container-nav ul li:last-child{
+.nav ul li:last-child{
   padding-right: 0;
   white-space: nowrap;
 }
-.container-nav li a{
+.nav li a{
   color: #031C4E;
   font-size: 1em;
   font-weight: bold;
 }
-.container-nav li a:hover{
+.nav li a:hover{
   text-decoration: none;
   color: #007DFF;
 }
-.container-nav li #button{
+.nav li #button{
   background-color: white;
   padding: 10px;
   color: #0069FF;
   border: 1px solid #0069FF;
   border-radius: 5px;
 }
-.container-nav li #button:hover{
+.nav li #button:hover{
   background-color: #0069FF;
   color: white;
 }
-.container-nav .burger i{
+.nav .burger i{
   color: #0069FF;
   font-size: 1.25em;
+}
+.header-bottom{
+  background-image: url(../img/bg-home-1-d54581d7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-bottom .title{
+  color: white;
+  margin: 80px 0;
+}
+.header-bottom .title h1{
+  font-size: 3em;
+  font-weight: 600;
+}
+.header-bottom .title p{
+  font-size: 1.5em;
+  color: #CCDBFF;
+}
+.sign-in{
+  background-color: white;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+.box-sign-in h2{
+  color: #031C4E;
+  font-weight: 600;
+}
+.box-sign-in h3{
+  color: #006AFF;
+  font-weight: 600;
+  font-size: 2em;
+}
+.box-sign-in form input{
+  display: block;
+  width: 80%;
+  margin: 15px auto;
+  border: 1px solid #EEEEEE;
+  border-radius: 4px;
+  padding: 10px 5px;
+}
+.box-sign-in .account,
+.box-sign-in .google{
+  width: 80%;
+  margin: 15px auto;
+  padding: 5px 0;
+  font-weight: 600;
+}
+.box-sign-in .account{
+  background-color: #579AFF;
+  border-radius: 4px;
+}
+.box-sign-in .account a{
+  color: white;
+}
+.box-sign-in .account:hover,
+.box-sign-in .account a:hover{
+  text-decoration: none;
+  background-color: #1633FF;
+}
+.box-sign-in .google:hover,
+.box-sign-in .google a:hover{
+  text-decoration: none;
+  background-color: #F2F8FF;
+}
+.box-sign-in .google{
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 2px 2px rgba(166, 166, 166,0.5);
+}
+.box-sign-in .google a{
+  color: rgb(83, 83, 83);
+}
+.box-sign-in .google span i{
+  position: absolute;
+  left:5px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #579AFF;
+}
+.box-sign-in p{
+  font-size: 1.05em;
 }
