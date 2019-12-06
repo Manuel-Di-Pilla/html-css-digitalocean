@@ -20,8 +20,9 @@ body{
 .nav li{
   padding-right: 15px;
 }
-.nav li span i{
+.nav li span{
   padding-left: 3px;
+  vertical-align: middle;
 }
 .nav ul li:last-child{
   padding-right: 0;
@@ -131,4 +132,30 @@ body{
 }
 .box-sign-in p{
   font-size: 1.05em;
+}
+.main-1{
+  background-color: #F3F5F9;
+}
+.partner .col-xs-6{
+  text-align: center;
+  line-height: 50px;
+  height: 110px;
+  line-height: 110px;
+}
+.partner img{
+  width: 80%;
+  vertical-align: middle;
+}
+.partner p{
+  color: #6F7B97;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+.partner a{
+  display: inline-block;
+  color: #006AFF;
+  font-weight: 600;
+  padding: 20px 0;
 }
