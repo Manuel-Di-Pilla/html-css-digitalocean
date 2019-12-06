@@ -164,6 +164,94 @@ body{
   text-decoration: none;
   color: #006AFF;
 }
+.deploy h1{
+  font-weight: 600;
+  color: #031B4E;
+}
+.deploy .text-center p{
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #4E5F95;
+}
+.deploy li{
+  color: #818DA6;
+  border-left: 1px solid grey;
+  font-weight: 600;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.deploy li:hover{
+  color: #031B4E;
+}
+.deploy h4{
+  color: #031B4E;
+  font-weight: 600;
+}
+.deploy .bottom-icon,
+.deploy .list,
+.deploy .top-icon{
+  margin-top: 40px;
+}
+.deploy .top-icon p,
+.deploy .bottom-icon p{
+  font-weight: 600;
+  color: #625F95;
+}
+.main-3{
+  background-color: #F3F5F9;
+  margin-top: 50px;
+}
+.main-3 h1{
+  font-weight: 600;
+  color: #031B4E;
+  margin-top: 60px;
+}
+.main-3 .padding{
+  font-weight: 600;
+  color: #625F95;
+  padding: 30px 0;
+}
+.main-3 .bot{
+  font-weight: 600;
+  color: #625F95;
+  padding: 15px 0;
+}
+.main-3 img{
+  width: 85%;
+}
+.main-3 span{
+  color: #031B4E;
+  font-size: 2em;
+  cursor: pointer;
+}
+.main-3 span:hover{
+  color: #0069FF;
+}
+.main-3 .circle i{
+  color: #006AFF;
+  font-size: 0.8em;
+  padding-bottom: 60px;
+}
+.main-4 h1,
+.main-4 h3{
+  font-weight: 600;
+  color: #031B4E;
+}
+.main-4 h1{
+  padding: 40px 0;
+}
+.main-4 p{
+  font-weight: 600;
+  color: #625F95;
+}
+.main-4 p a{
+  padding-bottom: 80px;
+}
+.main-4 span {
+  padding-left: 10px;
+}
 @media screen and (min-width: 768px) and (max-width: 992px){
   .partner img{
     width: 50%;
