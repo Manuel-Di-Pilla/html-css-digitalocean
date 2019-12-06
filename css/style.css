@@ -49,3 +49,7 @@
   background-color: #0069FF;
   color: white;
 }
+.container-nav .burger i{
+  color: #0069FF;
+  font-size: 1.25em;
+}
