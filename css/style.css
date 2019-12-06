@@ -59,7 +59,8 @@ body{
 }
 .header-bottom .title{
   color: white;
-  margin: 80px 0;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .header-bottom .title h1{
   font-size: 3em;
@@ -158,4 +159,18 @@ body{
   color: #006AFF;
   font-weight: 600;
   padding: 20px 0;
+}
+.partner a:hover{
+  text-decoration: none;
+  color: #006AFF;
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .partner img{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px){
+  .partner img{
+    width: 40%;
+  }
 }
