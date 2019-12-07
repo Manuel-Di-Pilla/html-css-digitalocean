@@ -22,6 +22,7 @@ body{
 }
 .nav li span{
   padding-left: 3px;
+  font-size: 0.8em;
   vertical-align: middle;
 }
 .nav ul li:last-child{
@@ -248,9 +249,57 @@ body{
 }
 .main-4 p a{
   padding-bottom: 80px;
+  color: #1C7BFF;
 }
 .main-4 span {
+  padding-left: 5px;
+  font-size: 0.8em;
+}
+.main-5{
+  background-image: linear-gradient(to top, #00229D, #0048C5);
+  margin-top: 80px;
+}
+.main-5 h2{
+  color: white;
+  font-weight: 600;
+  padding-top: 80px;
+  margin-bottom: 50px;
+}
+.main-5 ul{
+  padding-left: 0;
+  padding-bottom: 50px;
+}
+.main-5 li{
+  border-bottom: 1px solid white;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.main-5 li > span{
+  padding-left: 60px;
+  color: #6C96B8;
+}
+.main-5 li h5{
+  display: inline;
   padding-left: 10px;
+  color: white;
+  font-weight: 600;
+}
+.main-5 li a{
+  position: absolute;
+  right: 0;
+  color: #05D7D2;
+}
+.main-5 li a:hover{
+  text-decoration: none;
+  color: #005FE6;
+}
+.main-5 li a span{
+  font-size: 0.8em;
+  padding-left: 4px;
+}
+main-6{
+  background-color: #F3F5F9;
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
   .partner img{
