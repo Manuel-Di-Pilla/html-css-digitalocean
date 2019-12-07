@@ -411,10 +411,13 @@ body{
 .footer i:hover{
   color: #0147FE;
 }
+.foooter .col-xs-12{
+
+}
 .footer ul{
   padding-top: 30px;
-  margin-bottom: 80px;
   padding-left: 0;
+  margin-bottom: 50px;
 }
 .footer ul li:not(.title){
   margin-bottom: 5px;
@@ -439,9 +442,20 @@ body{
   .partner img{
     width: 50%;
   }
+  .footer ul{
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 768px){
   .partner img{
     width: 40%;
+  }
+  .footer ul{
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .footer ul{
+    margin-bottom: 10px;
   }
 }
