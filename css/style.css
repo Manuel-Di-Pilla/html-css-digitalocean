@@ -16,6 +16,7 @@ body{
 .nav img{
   width: 11em;
   vertical-align: middle;
+  padding-left: 15px;
 }
 .nav li{
   padding-right: 15px;
@@ -168,11 +169,13 @@ body{
 .deploy h1{
   font-weight: 600;
   color: #031B4E;
+  padding-top: 60px;
 }
 .deploy .text-center p{
   font-weight: 600;
   font-size: 1.2em;
   color: #4E5F95;
+  padding: 40px 0;
 }
 .deploy li{
   color: #818DA6;
@@ -298,8 +301,85 @@ body{
   font-size: 0.8em;
   padding-left: 4px;
 }
-main-6{
+.main-6{
   background-color: #F3F5F9;
+}
+.main-6 h2{
+  font-weight: 600;
+  color: #031C4E;
+  padding: 50px;
+}
+.main-6 .col-xs-8 > span{
+  color: #031B4E;
+  font-size: 2em;
+  cursor: pointer;
+}
+.main-6 .col-xs-8 > span:hover{
+  color: #0069FF;
+}
+.main-6 .box-inside{
+  display: inline-block;
+  background-color: white;
+  width: 85%;
+  vertical-align: middle;
+  height: 100%;
+}
+.main-6 .box-inside img{
+  width: 40%;
+  padding-top: 80px;
+  padding-bottom: 15px;
+}
+.main-6 .box-inside h4{
+  padding: 20px;
+  color: #5C6A88;
+}
+.main-6 .box-inside .bold{
+  color: #031C4E;
+  font-weight: 600;
+}
+.main-6 .box-inside .no-bold{
+  padding-bottom: 20px;
+  color: #031C4E;
+}
+.main-6 .box-inside a{
+  display: inline-block;
+  padding-bottom: 60px;
+  color: #1978FF;
+  text-decoration: none;
+}
+.main-6 .box-inside a span{
+  padding-left: 10px;
+}
+.main-6 .circle{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #006AFF;
+  font-size: 0.8em;
+}
+.main-7{
+  background-image: url(../img/bg-home-1-d54581d7.png);
+}
+.main-7 h2{
+  color: white;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.main-7 a{
+  display: inline-block;
+  color: #3386FF;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin-bottom: 40px;
+}
+.main-7 a:hover{
+  text-decoration: none;
+  background-color: #CDDBFE;
+}
+.footer{
+  background-color: #031C4E;
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
   .partner img{
