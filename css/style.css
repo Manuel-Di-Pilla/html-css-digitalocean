@@ -489,8 +489,8 @@ body{
   float: left;
 }
 .helper .shark img{
-height: 50px;
-padding: 5px 0;
+  height: 50px;
+  padding: 5px 0;
 }
 .helper .shark{
   position: relative;
