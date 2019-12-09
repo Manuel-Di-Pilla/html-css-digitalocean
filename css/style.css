@@ -146,35 +146,35 @@ body{
   font-size: 1.05em;
 }
 
-/* main-1 */
+/* customers */
 
-.main-1{
+.customers{
   background-color: #F3F5F9;
 }
-.partner .col-xs-6{
+.customers .col-xs-6{
   text-align: center;
   line-height: 50px;
   height: 110px;
   line-height: 110px;
 }
-.partner img{
+.customers img{
   width: 80%;
   vertical-align: middle;
 }
-.partner p{
+.customers p{
   color: #6F7B97;
   font-weight: 600;
   padding-top: 40px;
   padding-bottom: 10px;
   margin-bottom: 0;
 }
-.partner a{
+.customers a{
   display: inline-block;
   color: #006AFF;
   font-weight: 600;
   padding: 20px 0;
 }
-.partner a:hover{
+.customers a:hover{
   text-decoration: none;
   color: #006AFF;
 }
@@ -222,183 +222,216 @@ body{
   color: #625F95;
 }
 
-/* main-3 */
+/* designe */
 
-.main-3{
+.designe{
   background-color: #F3F5F9;
   margin-top: 50px;
 }
-.main-3 h1{
+.designe h1{
   font-weight: 600;
   color: #031B4E;
   margin-top: 60px;
 }
-.main-3 .padding{
+.designe .padding{
   font-weight: 600;
   color: #625F95;
   padding: 30px 0;
 }
-.main-3 .bot{
+.designe .bot{
   font-weight: 600;
   color: #625F95;
   padding: 15px 0;
 }
-.main-3 img{
+.designe img{
   width: 85%;
 }
-.main-3 span{
+.designe span{
   color: #031B4E;
   font-size: 2em;
   cursor: pointer;
 }
-.main-3 span:hover{
+.designe span:hover{
   color: #0069FF;
 }
-.main-3 .circle i{
-  color: #006AFF;
-  font-size: 0.8em;
-  padding-bottom: 60px;
+.designe ul {
+  margin-bottom: 60px;
+}
+.designe ul li{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  border: 1px solid #0069FF;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.designe ul li:last-child{
+  margin-right: 0;
+}
+.designe ul li:hover{
+  background-color: #0069FF;
+}
+.designe ul .selected{
+  background-color: #0069FF;
 }
 
-/* main-4 */
+/* for business */
 
-.main-4 h1,
-.main-4 h3{
+.for-business h1,
+.for-business h3{
   font-weight: 600;
   color: #031B4E;
 }
-.main-4 h1{
+.for-business h1{
   padding: 40px 0;
 }
-.main-4 p{
+.for-business p{
   font-weight: 600;
   color: #625F95;
 }
-.main-4 p a{
+.for-business p a{
   padding-bottom: 80px;
   color: #1C7BFF;
 }
-.main-4 span {
+.for-business span {
   padding-left: 5px;
   font-size: 0.8em;
 }
 
-/* main-5 */
+/* data center */
 
-.main-5{
+.data-center{
   background-image: linear-gradient(180deg, #00229D, #0048C5);
   margin-top: 80px;
 }
-.main-5 h2{
+.data-center h2{
   color: white;
   font-weight: 600;
   padding-top: 80px;
   margin-bottom: 50px;
 }
-.main-5 ul{
+.data-center ul{
   padding-left: 0;
   padding-bottom: 50px;
 }
-.main-5 li{
+.data-center li{
   border-bottom: 1px solid white;
   position: relative;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-.main-5 li > span{
+.data-center li > span{
   padding-left: 60px;
   color: #6C96B8;
 }
-.main-5 li h5{
+.data-center li h5{
   display: inline;
   padding-left: 10px;
   color: white;
   font-weight: 600;
 }
-.main-5 li a{
+.data-center li a{
   position: absolute;
   right: 0;
   color: #05D7D2;
 }
-.main-5 li a:hover{
+.data-center li a:hover{
   text-decoration: none;
   color: #005FE6;
 }
-.main-5 li a span{
+.data-center li a span{
   font-size: 0.8em;
   padding-left: 4px;
 }
 
-/* main-6 */
+/* data center */
 
-.main-6{
+.development-teams{
   background-color: #F3F5F9;
 }
-.main-6 h2{
+.development-teams h2{
   font-weight: 600;
   color: #031C4E;
   padding: 50px;
 }
-.main-6 .col-xs-8 > span{
+.development-teams .col-xs-8 > span{
   color: #031B4E;
   font-size: 2em;
   cursor: pointer;
 }
-.main-6 .col-xs-8 > span:hover{
+.development-teams .col-xs-8 > span:hover{
   color: #0069FF;
 }
-.main-6 .box-inside{
+.development-teams .box-inside{
   display: inline-block;
   background-color: white;
   width: 85%;
   vertical-align: middle;
   height: 100%;
 }
-.main-6 .box-inside img{
+.development-teams .box-inside img{
   width: 40%;
   padding-top: 80px;
   padding-bottom: 15px;
 }
-.main-6 .box-inside h4{
+.development-teams .box-inside h4{
   padding: 20px;
   color: #5C6A88;
 }
-.main-6 .box-inside .bold{
+.development-teams .box-inside .bold{
   color: #031C4E;
   font-weight: 600;
 }
-.main-6 .box-inside .no-bold{
+.development-teams .box-inside .no-bold{
   padding-bottom: 20px;
   color: #031C4E;
 }
-.main-6 .box-inside a{
+.development-teams .box-inside a{
   display: inline-block;
   padding-bottom: 60px;
   color: #1978FF;
   text-decoration: none;
 }
-.main-6 .box-inside a span{
+.development-teams .box-inside a span{
   padding-left: 10px;
 }
-.main-6 .circle{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: #006AFF;
-  font-size: 0.8em;
+.development-teams ul {
+  margin-bottom: 60px;
+  margin-top: 20px;
+  padding-left: 0;
+}
+.development-teams ul li{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  border: 1px solid #0069FF;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.development-teams ul li:last-child{
+  margin-right: 0;
+}
+.development-teams ul li:hover{
+  background-color: #0069FF;
+}
+.development-teams ul .selected{
+  background-color: #0069FF;
 }
 
-/* main-7 */
+/* started */
 
-.main-7{
+.started{
   background-image: url(../img/bg-home-1-d54581d7.png);
 }
-.main-7 h2{
+.started h2{
   color: white;
   font-weight: 600;
   padding-top: 40px;
   padding-bottom: 10px;
 }
-.main-7 a{
+.started a{
   display: inline-block;
   color: #3386FF;
   font-weight: 600;
@@ -407,7 +440,7 @@ body{
   padding: 10px 15px;
   margin-bottom: 50px;
 }
-.main-7 a:hover{
+.started a:hover{
   text-decoration: none;
   background-color: #CDDBFE;
 }
@@ -533,7 +566,7 @@ body{
 /* media query */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
-  .partner img{
+  .customers img{
     width: 50%;
   }
   .footer ul{
@@ -550,7 +583,7 @@ body{
   }
 }
 @media screen and (max-width: 768px){
-  .partner img{
+  .customers img{
     width: 40%;
   }
   .footer ul{
